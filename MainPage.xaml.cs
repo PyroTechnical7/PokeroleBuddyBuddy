@@ -13,7 +13,7 @@ namespace PokeroleBuddyBuddy
             InitializeComponent();
         }
 
-        private async void OnCounterClicked(object sender, EventArgs e)
+        private async void OnImportClicked(object sender, EventArgs e)
         {
             FileResult jsonFile = await ImportJsonCollectionPrompt();
             if (jsonFile != null)
@@ -25,7 +25,7 @@ namespace PokeroleBuddyBuddy
             }
             
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            SemanticScreenReader.Announce(ImportBtn.Text);
         }
 
         private async Task<FileResult> ImportJsonCollectionPrompt()

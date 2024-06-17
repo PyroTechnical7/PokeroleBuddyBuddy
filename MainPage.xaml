@@ -25,10 +25,10 @@
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
             <Button
-                x:Name="CounterBtn"
-                Text="Click me" 
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
+                x:Name="ImportBtn"
+                Text="Import PokemonDataCollection.json" 
+                SemanticProperties.Hint="Import the Pokemon Collection Json"
+                Clicked="OnImportClicked"
                 HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
