@@ -3,17 +3,17 @@
 namespace PokeroleBuddyClasses
 {
     // All the code in this file is included in all platforms.
-    public class PokemonCollectionHandler : CollectionHandler
+    public class AbilityCollectionHandler
     {
-        PokemonCollection pokemonCollection;
+        AbilityCollection abilityCollection;
         public async void ImportJsonCollection(FileResult jsonCollection)
         {
-            string pokemonCollectionJson;
+            string abilityCollectionJson;
 
             try
             {
-                pokemonCollectionJson = await ReadFileContentsAsync(jsonCollection);
-                pokemonCollection = JsonSerializer.Deserialize<PokemonCollection>(pokemonCollectionJson);
+                abilityCollectionJson = await ReadFileContentsAsync(jsonCollection);
+                abilityCollection = JsonSerializer.Deserialize<AbilityCollection>(abilityCollectionJson);
             }
             catch (Exception e)
             {
@@ -54,19 +54,8 @@ namespace PokeroleBuddyClasses
             };
            
             await using FileStream createStream = File.Create(filePath);
-            await JsonSerializer.SerializeAsync(createStream, pokemonCollection, options);
+            await JsonSerializer.SerializeAsync(createStream, abilityCollection, options);
 
-        }
-
-        public void AddPokemon(string pokemonJson)
-        {
-            PokemonEntry pokemon = JsonSerializer.Deserialize<PokemonEntry>(pokemonJson);
-            pokemonCollection.pokemonEntries.Add(pokemon);
-        }
-
-        public string getPokemonName(int i = 0)
-        {
-            return pokemonCollection.pokemonEntries[0].Name;
         }
     }
 }

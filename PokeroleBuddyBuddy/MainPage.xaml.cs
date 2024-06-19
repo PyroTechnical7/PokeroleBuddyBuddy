@@ -7,13 +7,16 @@ namespace PokeroleBuddyBuddy
     public partial class MainPage : ContentPage
     {
         PokemonCollectionHandler pokemonCollectionHandler;
+        ItemCollectionHandler itemCollectionHandler;
+        AbilityCollectionHandler abilityCollectionHandler;
+        MoveCollectionHandler moveCollectionHandler;
 
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private async void OnImportClicked(object sender, EventArgs e)
+        private async void OnImportPokemonClicked(object sender, EventArgs e)
         {
             FileResult jsonFile = await ImportJsonCollectionPrompt();
             if (jsonFile != null)
@@ -25,7 +28,46 @@ namespace PokeroleBuddyBuddy
             }
             
 
-            SemanticScreenReader.Announce(ImportBtn.Text);
+            SemanticScreenReader.Announce(ImportPokemonBtn.Text);
+        }
+
+        private async void OnImportItemsClicked(object sender, EventArgs e)
+        {
+            FileResult jsonFile = await ImportJsonCollectionPrompt();
+            if (jsonFile != null)
+            {
+                itemCollectionHandler = new ItemCollectionHandler();
+                itemCollectionHandler.ImportJsonCollection(jsonFile);
+            }
+
+
+            SemanticScreenReader.Announce(ImportItemsBtn.Text);
+        }
+
+        private async void OnImportAbilitiesClicked(object sender, EventArgs e)
+        {
+            FileResult jsonFile = await ImportJsonCollectionPrompt();
+            if (jsonFile != null)
+            {
+                abilityCollectionHandler = new AbilityCollectionHandler();
+                abilityCollectionHandler.ImportJsonCollection(jsonFile);
+            }
+
+
+            SemanticScreenReader.Announce(ImportAbilitiesBtn.Text);
+        }
+
+        private async void OnImportMovesClicked(object sender, EventArgs e)
+        {
+            FileResult jsonFile = await ImportJsonCollectionPrompt();
+            if (jsonFile != null)
+            {
+                moveCollectionHandler = new MoveCollectionHandler();
+                moveCollectionHandler.ImportJsonCollection(jsonFile);
+            }
+
+
+            SemanticScreenReader.Announce(ImportMovesBtn.Text);
         }
 
         private async Task<FileResult> ImportJsonCollectionPrompt()
