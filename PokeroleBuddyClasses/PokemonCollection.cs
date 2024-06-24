@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PokeroleBuddyClasses
 {
-    internal class PokemonCollection
+    public class PokemonCollection
     {
         [JsonPropertyName("pokemonCollection")]
         public List<PokemonEntry> pokemonEntries { get; set; }

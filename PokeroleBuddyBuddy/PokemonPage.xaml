@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeroleBuddyBuddy.PokemonPage"
+             Title="PokemonPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Button
+            x:Name="ImportPokemonBtn"
+            Text="Import PokemonDataCollection.json" 
+            SemanticProperties.Hint="Import the Pokemon Collection Json"
+            Clicked="OnImportPokemonClicked"
+            HorizontalOptions="Center"
+            Grid.Row="0"/>
+
+        <ListView x:Name="ListView"
+            VerticalScrollBarVisibility="Always"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+            Grid.Row="1">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label Text="{Binding Name}" />
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>

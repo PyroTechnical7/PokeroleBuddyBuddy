@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PokeroleBuddyClasses
 {
-    internal class MoveEntry
+    public class MoveEntry
     {
         [JsonPropertyName("Name")]
         public string Name { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PokeroleBuddyClasses
 {
-    internal class Move
+    public class Move
     {
         public int LearnedRank { get; set; }
         public string Name { get; set; }

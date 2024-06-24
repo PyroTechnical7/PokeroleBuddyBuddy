@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PokeroleBuddyClasses
 {
-    internal class Ability
+    public class Ability
     {
         public bool IsHidden { get; set; }
         public string Name { get; set; }

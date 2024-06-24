@@ -16,20 +16,6 @@ namespace PokeroleBuddyBuddy
             InitializeComponent();
         }
 
-        private async void OnImportPokemonClicked(object sender, EventArgs e)
-        {
-            FileResult jsonFile = await ImportJsonCollectionPrompt();
-            if (jsonFile != null)
-            {
-                pokemonCollectionHandler = new PokemonCollectionHandler();
-                pokemonCollectionHandler.ImportJsonCollection(jsonFile);
-
-                //CounterBtn.Text = pokemonCollectionHandler.getPokemonName();
-            }
-            
-
-            SemanticScreenReader.Announce(ImportPokemonBtn.Text);
-        }
 
         private async void OnImportItemsClicked(object sender, EventArgs e)
         {

@@ -66,4 +66,10 @@
 	  <ProjectReference Include="..\PokeroleBuddyClasses\PokeroleBuddyClasses.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="PokemonPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

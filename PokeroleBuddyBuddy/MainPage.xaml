@@ -14,13 +14,6 @@
                 SemanticProperties.HeadingLevel="Level1" />
 
             <Button
-                x:Name="ImportPokemonBtn"
-                Text="Import PokemonDataCollection.json" 
-                SemanticProperties.Hint="Import the Pokemon Collection Json"
-                Clicked="OnImportPokemonClicked"
-                HorizontalOptions="Fill" />
-
-            <Button
                 x:Name="ImportItemsBtn"
                 Text="Import ItemsCollection.json" 
                 SemanticProperties.Hint="Import the items Json"

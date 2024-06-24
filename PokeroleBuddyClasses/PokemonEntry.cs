@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PokeroleBuddyClasses
 {
-    internal class PokemonEntry
+    public class PokemonEntry
     {
         public int Number { get; set; }
         public string DexID { get; set; }

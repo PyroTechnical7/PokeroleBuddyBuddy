@@ -5,21 +5,23 @@ namespace PokeroleBuddyClasses
     // All the code in this file is included in all platforms.
     public class PokemonCollectionHandler : CollectionHandler
     {
-        PokemonCollection pokemonCollection;
-        public async void ImportJsonCollection(FileResult jsonCollection)
+        PokemonCollection PokemonCollection;
+        public async Task<List<PokemonEntry>> ImportJsonCollection(FileResult jsonCollection)
         {
             string pokemonCollectionJson;
 
             try
             {
                 pokemonCollectionJson = await ReadFileContentsAsync(jsonCollection);
-                pokemonCollection = JsonSerializer.Deserialize<PokemonCollection>(pokemonCollectionJson);
+                PokemonCollection = JsonSerializer.Deserialize<PokemonCollection>(pokemonCollectionJson);
             }
             catch (Exception e)
             {
                 Console.WriteLine("failed to import JSON collection.");
                 Console.WriteLine(e);
             }
+
+            return PokemonCollection.pokemonEntries;
 
         }
 
@@ -54,19 +56,24 @@ namespace PokeroleBuddyClasses
             };
            
             await using FileStream createStream = File.Create(filePath);
-            await JsonSerializer.SerializeAsync(createStream, pokemonCollection, options);
+            await JsonSerializer.SerializeAsync(createStream, PokemonCollection, options);
 
         }
 
         public void AddPokemon(string pokemonJson)
         {
             PokemonEntry pokemon = JsonSerializer.Deserialize<PokemonEntry>(pokemonJson);
-            pokemonCollection.pokemonEntries.Add(pokemon);
+            PokemonCollection.pokemonEntries.Add(pokemon);
         }
 
         public string getPokemonName(int i = 0)
         {
-            return pokemonCollection.pokemonEntries[0].Name;
+            return PokemonCollection.pokemonEntries[0].Name;
+        }
+
+        public IList<object> GetPokemon()
+        {
+            return (IList<object>) this.PokemonCollection.pokemonEntries;
         }
     }
 }
