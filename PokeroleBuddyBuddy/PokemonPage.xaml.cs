@@ -24,6 +24,11 @@ public partial class PokemonPage : ContentPage
         //SemanticScreenReader.Announce(ImportPokemonBtn.Text);
     }
 
+    private async void OnTextChanged(object sender, EventArgs e)
+    {
+        ListView.ItemsSource = pokemonCollectionHandler.SearchQuerry(PokemonSearchBar.Text);
+    }
+
     private async Task<FileResult> ImportJsonCollectionPrompt()
     {
         var jsonFileType = new FilePickerFileType(

@@ -67,6 +67,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="AbilitiesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ItemsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="MovesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="PokemonPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

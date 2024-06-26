@@ -10,13 +10,28 @@
     <TabBar>
         <ShellContent
             Title="Home"
-            ContentTemplate="{DataTemplate local:MainPage
-            }"
+            ContentTemplate="{DataTemplate local:MainPage}"
             Route="MainPage" />
 
         <ShellContent
             Title="Pokemon"
             ContentTemplate="{DataTemplate local:PokemonPage}"
+            />
+
+        <ShellContent
+            Title="Moves"
+            ContentTemplate="{DataTemplate local:MovesPage}"
+            />
+
+        <ShellContent
+            Title="Abilities"
+            ContentTemplate="{DataTemplate local:AbilitiesPage}"
+            />
+
+
+        <ShellContent
+            Title="Items"
+            ContentTemplate="{DataTemplate local:ItemsPage}"
             />
     </TabBar>
 

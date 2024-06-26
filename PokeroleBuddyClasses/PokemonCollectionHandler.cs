@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System.Collections;
+using System.Text.Json;
 
 namespace PokeroleBuddyClasses
 {
@@ -74,6 +75,12 @@ namespace PokeroleBuddyClasses
         public IList<object> GetPokemon()
         {
             return (IList<object>) this.PokemonCollection.pokemonEntries;
+        }
+
+        public IEnumerable SearchQuerry(string text)
+        {
+            var result = PokemonCollection.pokemonEntries.Where(p => p.Name.IndexOf(text, StringComparison.OrdinalIgnoreCase) >= 0);
+            return result;
         }
     }
 }
