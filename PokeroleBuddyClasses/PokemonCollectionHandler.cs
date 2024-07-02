@@ -67,6 +67,11 @@ namespace PokeroleBuddyClasses
             PokemonCollection.pokemonEntries.Add(pokemon);
         }
 
+        public void AddPokemon(PokemonEntry pokemon)
+        {
+            if(pokemon != null) PokemonCollection.pokemonEntries.Add(pokemon);
+        }
+
         public string getPokemonName(int i = 0)
         {
             return PokemonCollection.pokemonEntries[0].Name;
@@ -82,5 +87,6 @@ namespace PokeroleBuddyClasses
             var result = PokemonCollection.pokemonEntries.Where(p => p.Name.IndexOf(text, StringComparison.OrdinalIgnoreCase) >= 0);
             return result;
         }
+
     }
 }

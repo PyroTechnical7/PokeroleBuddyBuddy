@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddybuddy\\pokerolebuddyclasses\\pokemoncollectionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|solutionrelative:pokerolebuddyclasses\\pokemoncollectionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddybuddy\\pokerolebuddyclasses\\pokemonentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|solutionrelative:pokerolebuddyclasses\\pokemonentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CFE585A-0961-47EA-802E-962A18F16F25}|PokeroleBuddyBuddy\\PokeroleBuddyBuddy.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddybuddy\\pokerolebuddybuddy\\pokemonpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +13,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{3CFE585A-0961-47EA-802E-962A18F16F25}|PokeroleBuddyBuddy\\PokeroleBuddyBuddy.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddybuddy\\pokerolebuddybuddy\\pokemonpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3CFE585A-0961-47EA-802E-962A18F16F25}|PokeroleBuddyBuddy\\PokeroleBuddyBuddy.csproj|solutionrelative:pokerolebuddybuddy\\pokemonpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddybuddy\\pokerolebuddyclasses\\pokemoncollectionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|solutionrelative:pokerolebuddyclasses\\pokemoncollectionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddybuddy\\pokerolebuddyclasses\\pokemonview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|solutionrelative:pokerolebuddyclasses\\pokemonview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddybuddy\\pokerolebuddyclasses\\pokemoncollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|solutionrelative:pokerolebuddyclasses\\pokemoncollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CFE585A-0961-47EA-802E-962A18F16F25}|PokeroleBuddyBuddy\\PokeroleBuddyBuddy.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddybuddy\\pokerolebuddybuddy\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -45,14 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddybuddy\\pokerolebuddyclasses\\moveentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|solutionrelative:pokerolebuddyclasses\\moveentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddybuddy\\pokerolebuddyclasses\\pokemoncollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|solutionrelative:pokerolebuddyclasses\\pokemoncollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddybuddy\\pokerolebuddyclasses\\pokemonentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|solutionrelative:pokerolebuddyclasses\\pokemonentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B32E407-515E-4399-9B91-4A2BDA4878A2}|PokeroleBuddyClasses\\PokeroleBuddyClasses.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddybuddy\\pokerolebuddyclasses\\movecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -153,32 +157,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AbilitiesPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\AbilitiesPage.xaml",
-              "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\AbilitiesPage.xaml",
-              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\AbilitiesPage.xaml",
-              "RelativeToolTip": "PokeroleBuddyBuddy\\AbilitiesPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T13:34:28.454Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MovesPage.xaml",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\MovesPage.xaml",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\MovesPage.xaml",
@@ -186,25 +177,24 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\MovesPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T13:34:09.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T13:34:09.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "PokemonEntry.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\PokemonEntry.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyClasses\\PokemonEntry.cs",
-              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\PokemonEntry.cs",
-              "RelativeToolTip": "PokeroleBuddyClasses\\PokemonEntry.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAYwBsAAAAtAAAA",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\PokemonEntry.cs*",
+              "RelativeToolTip": "PokeroleBuddyClasses\\PokemonEntry.cs*",
+              "ViewState": "AQIAACwAAAAAAAAAAAAqwDYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T21:01:38.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Ability.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\Ability.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyClasses\\Ability.cs",
@@ -212,12 +202,11 @@
               "RelativeToolTip": "PokeroleBuddyClasses\\Ability.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:02:18.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T21:02:18.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MoveCollection.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\MoveCollection.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyClasses\\MoveCollection.cs",
@@ -225,12 +214,11 @@
               "RelativeToolTip": "PokeroleBuddyClasses\\MoveCollection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T21:14:25.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T21:14:25.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "MoveEntry.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\MoveEntry.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyClasses\\MoveEntry.cs",
@@ -238,8 +226,7 @@
               "RelativeToolTip": "PokeroleBuddyClasses\\MoveEntry.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAA5wAwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T21:02:45.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T21:02:45.017Z"
             },
             {
               "$type": "Document",
@@ -249,35 +236,22 @@
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\PokemonPage.xaml",
               "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\PokemonPage.xaml",
               "RelativeToolTip": "PokeroleBuddyBuddy\\PokemonPage.xaml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAtAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-24T13:28:39.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ItemEntry.cs",
-              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\ItemEntry.cs",
-              "RelativeDocumentMoniker": "PokeroleBuddyClasses\\ItemEntry.cs",
-              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\ItemEntry.cs",
-              "RelativeToolTip": "PokeroleBuddyClasses\\ItemEntry.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "DocumentIndex": 3,
+              "Title": "PokemonCollectionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\PokemonCollectionHandler.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyClasses\\PokemonCollectionHandler.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\PokemonCollectionHandler.cs",
+              "RelativeToolTip": "PokeroleBuddyClasses\\PokemonCollectionHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T21:01:07.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Move.cs",
-              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\Move.cs",
-              "RelativeDocumentMoniker": "PokeroleBuddyClasses\\Move.cs",
-              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\Move.cs",
-              "RelativeToolTip": "PokeroleBuddyClasses\\Move.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:02:43.555Z",
+              "WhenOpened": "2024-06-14T20:59:03.307Z",
               "EditorCaption": ""
             },
             {
@@ -288,14 +262,51 @@
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\PokemonPage.xaml.cs",
               "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\PokemonPage.xaml.cs",
               "RelativeToolTip": "PokeroleBuddyBuddy\\PokemonPage.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAA/AAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAIwFAAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T13:28:47.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "PokemonView.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\PokemonView.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyClasses\\PokemonView.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\PokemonView.cs",
+              "RelativeToolTip": "PokeroleBuddyClasses\\PokemonView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T18:16:40.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ItemEntry.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\ItemEntry.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyClasses\\ItemEntry.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\ItemEntry.cs",
+              "RelativeToolTip": "PokeroleBuddyClasses\\ItemEntry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T21:01:07.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Move.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\Move.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyClasses\\Move.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\Move.cs",
+              "RelativeToolTip": "PokeroleBuddyClasses\\Move.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T21:02:43.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\MainPage.xaml",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\MainPage.xaml",
@@ -303,25 +314,11 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\MainPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-14T21:07:55.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T21:07:55.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PokemonCollectionHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\PokemonCollectionHandler.cs",
-              "RelativeDocumentMoniker": "PokeroleBuddyClasses\\PokemonCollectionHandler.cs",
-              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\PokemonCollectionHandler.cs*",
-              "RelativeToolTip": "PokeroleBuddyClasses\\PokemonCollectionHandler.cs*",
-              "ViewState": "AQIAADgAAAAAAAAAAAAwwFEAAACDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T20:59:03.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\AppShell.xaml",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\AppShell.xaml",
@@ -329,12 +326,11 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\AppShell.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-14T21:07:54.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T21:07:54.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\Platforms\\Windows\\App.xaml",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\Platforms\\Windows\\App.xaml",
@@ -342,12 +338,11 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\Platforms\\Windows\\App.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T03:00:42.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T03:00:42.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ItemsPage.xaml",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\ItemsPage.xaml",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\ItemsPage.xaml",
@@ -355,12 +350,11 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\ItemsPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T13:34:48.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T13:34:48.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "PokemonCollection.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\PokemonCollection.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyClasses\\PokemonCollection.cs",
@@ -373,7 +367,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
+              "Title": "AbilitiesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\AbilitiesPage.xaml",
+              "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\AbilitiesPage.xaml",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\AbilitiesPage.xaml",
+              "RelativeToolTip": "PokeroleBuddyBuddy\\AbilitiesPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T13:34:28.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "MoveCollectionHandler.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\MoveCollectionHandler.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyClasses\\MoveCollectionHandler.cs",
@@ -381,12 +387,11 @@
               "RelativeToolTip": "PokeroleBuddyClasses\\MoveCollectionHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T21:24:57.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T21:24:57.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\MainPage.xaml.cs",
@@ -394,12 +399,11 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\MainPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:08:28.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T21:08:28.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AbilityCollection.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\AbilityCollection.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyClasses\\AbilityCollection.cs",
@@ -411,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AbilityEntry.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\AbilityEntry.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyClasses\\AbilityEntry.cs",
@@ -423,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ItemCollection.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\ItemCollection.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyClasses\\ItemCollection.cs",
@@ -431,12 +435,11 @@
               "RelativeToolTip": "PokeroleBuddyClasses\\ItemCollection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T20:58:17.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T20:58:17.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\MauiProgram.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\MauiProgram.cs",
@@ -444,12 +447,11 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\MauiProgram.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:04:27.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T21:04:27.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "PokeroleBuddyBuddy.csproj",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy.csproj",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\PokeroleBuddyBuddy.csproj",
@@ -457,12 +459,11 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\PokeroleBuddyBuddy.csproj",
               "ViewState": "AQIAABMAAAAAAAAAAAAuwEoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-14T21:04:38.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T21:04:38.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\Platforms\\Windows\\App.xaml.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\Platforms\\Windows\\App.xaml.cs",
@@ -470,12 +471,11 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\Platforms\\Windows\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T21:35:50.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T21:35:50.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\AppShell.xaml.cs",
@@ -483,12 +483,11 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\AppShell.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T13:24:34.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T13:24:34.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Styles.xaml",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\Resources\\Styles\\Styles.xaml",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\Resources\\Styles\\Styles.xaml",
@@ -496,12 +495,11 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\Resources\\Styles\\Styles.xaml",
               "ViewState": "AQIAAIEBAAAAAAAAACBjwKIBAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-24T13:20:22.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T13:20:22.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Info.plist",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\Platforms\\MacCatalyst\\Info.plist",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\Platforms\\MacCatalyst\\Info.plist",
@@ -512,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\Platforms\\MacCatalyst\\Program.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\Platforms\\MacCatalyst\\Program.cs",
@@ -520,12 +518,11 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\Platforms\\MacCatalyst\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:38:14.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T21:38:14.877Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "AppDelegate.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\Platforms\\MacCatalyst\\AppDelegate.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\Platforms\\MacCatalyst\\AppDelegate.cs",
@@ -533,12 +530,11 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\Platforms\\MacCatalyst\\AppDelegate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:36:10.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T21:36:10.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\App.xaml.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\App.xaml.cs",
@@ -546,12 +542,11 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\App.xaml.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAiwAgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:04:47.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T21:04:47.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "ItemCollectionHandler.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\ItemCollectionHandler.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyClasses\\ItemCollectionHandler.cs",
@@ -559,12 +554,11 @@
               "RelativeToolTip": "PokeroleBuddyClasses\\ItemCollectionHandler.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwDoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T20:54:50.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T20:54:50.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "AbilityCollectionHandler.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\AbilityCollectionHandler.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyClasses\\AbilityCollectionHandler.cs",
@@ -572,12 +566,11 @@
               "RelativeToolTip": "PokeroleBuddyClasses\\AbilityCollectionHandler.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAQwD0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T21:21:54.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T21:21:54.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\App.xaml",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\App.xaml",
@@ -585,12 +578,11 @@
               "RelativeToolTip": "PokeroleBuddyBuddy\\App.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-14T21:04:24.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T21:04:24.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Entitlements.plist",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyBuddy\\Platforms\\MacCatalyst\\Entitlements.plist",
               "RelativeDocumentMoniker": "PokeroleBuddyBuddy\\Platforms\\MacCatalyst\\Entitlements.plist",
@@ -601,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "CollectionHandler.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyBuddy\\PokeroleBuddyClasses\\CollectionHandler.cs",
               "RelativeDocumentMoniker": "PokeroleBuddyClasses\\CollectionHandler.cs",
@@ -609,12 +601,11 @@
               "RelativeToolTip": "PokeroleBuddyClasses\\CollectionHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T20:51:35.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T20:51:35.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "PokemonEntry.cs",
               "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyJsonHandler\\MauiPokeroleBuddyClasses\\PokemonEntry.cs",
               "RelativeDocumentMoniker": "..\\PokeroleBuddyJsonHandler\\MauiPokeroleBuddyClasses\\PokemonEntry.cs",
@@ -622,8 +613,7 @@
               "RelativeToolTip": "..\\PokeroleBuddyJsonHandler\\MauiPokeroleBuddyClasses\\PokemonEntry.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:01:14.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T21:01:14.419Z"
             }
           ]
         }

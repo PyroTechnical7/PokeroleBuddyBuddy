@@ -5,14 +5,23 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 public partial class PokemonPage : ContentPage
 {
     PokemonCollectionHandler pokemonCollectionHandler;
-    public PokemonPage() => InitializeComponent();
+    PokemonEntry currentPokemon;
+    public PokemonPage()
+    {
+        InitializeComponent();
+        pokemonCollectionHandler = new PokemonCollectionHandler();
+        currentPokemon = new();
+
+        CurrentPokemonView.BindingContext = currentPokemon;
+        CurrentPokemonName.SetBinding(Label.TextProperty, new Binding("Name"));
+
+    }
 
     private async void OnImportPokemonClicked(object sender, EventArgs e)
     {
         FileResult jsonFile = await ImportJsonCollectionPrompt();
         if (jsonFile != null)
         {
-            pokemonCollectionHandler = new PokemonCollectionHandler();
             IList<PokemonEntry> importPokemon = await pokemonCollectionHandler.ImportJsonCollection(jsonFile);
             ListView.ItemsSource = importPokemon;
             
@@ -57,5 +66,18 @@ public partial class PokemonPage : ContentPage
         }
 
         return null;
+    }
+
+    private void NewPokemonBtnClicked(object sender, EventArgs e)
+    {
+        // TODO: check current pokemon
+
+        pokemonCollectionHandler.AddPokemon(currentPokemon);
+        ListView.ItemsSource = pokemonCollectionHandler.GetPokemon();
+    }
+
+    private void OnPokemonSelected(object sender, SelectedItemChangedEventArgs e)
+    {
+        currentPokemon = e.SelectedItem as PokemonEntry;
     }
 }

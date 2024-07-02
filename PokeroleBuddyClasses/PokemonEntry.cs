@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace PokeroleBuddyClasses
 {
-    public class PokemonEntry
+    public class PokemonEntry : INotifyPropertyChanged
     {
         public int Number { get; set; }
         public string DexID { get; set; }
@@ -44,6 +46,13 @@ namespace PokeroleBuddyClasses
         public string EvolvesFrom { get; set; }
         public List<object> Evolutions { get; set; }
         public List<Move> Moves { get; set; }
+
+        public event PropertyChangedEventHandler? PropertyChanged;
+
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 
     public class Height
@@ -57,4 +66,6 @@ namespace PokeroleBuddyClasses
         public double Kilograms { get; set; }
         public double Pounds { get; set; }
     }
+
+
 }

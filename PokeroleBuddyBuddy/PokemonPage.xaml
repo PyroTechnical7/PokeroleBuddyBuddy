@@ -12,6 +12,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="auto" />
             <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
         </Grid.ColumnDefinitions>
 
         <Button
@@ -22,6 +23,15 @@
             HorizontalOptions="Start"
             Grid.Row="0"/>
 
+        <Button
+            x:Name="NewPokemonBtn"
+            Text="Add current Pokemon" 
+            SemanticProperties.Hint="Create a new Pokemon entry"
+            Clicked="NewPokemonBtnClicked"
+            HorizontalOptions="Start"
+            Grid.Row="0"
+            Grid.Column="1"/>
+
         <SearchBar x:Name="PokemonSearchBar"
                    TextChanged="OnTextChanged"
                    Grid.Row="1"/>
@@ -31,7 +41,8 @@
             HorizontalOptions="Start"
             VerticalOptions="Fill"
             Grid.Row="2"
-            Grid.ColumnSpan="1">
+            Grid.ColumnSpan="1"
+            ItemSelected="OnPokemonSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -41,11 +52,22 @@
             </ListView.ItemTemplate>
         </ListView>
 
-        <Label Text="Test"
-               Grid.Row="1"
-               Grid.Column="1"
-               HorizontalOptions="StartAndExpand">
-            
-        </Label>
+        <Grid
+            x:Name="CurrentPokemonView"
+            Grid.Row="2"
+            Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="auto" />
+            </Grid.ColumnDefinitions>
+
+            <Label x:Name="CurrentPokemonName"/>
+        </Grid>
     </Grid>
 </ContentPage>
