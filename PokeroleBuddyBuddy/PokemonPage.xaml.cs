@@ -6,15 +6,19 @@ public partial class PokemonPage : ContentPage
 {
     PokemonCollectionHandler pokemonCollectionHandler;
     PokemonEntry currentPokemon;
+    IEnumerable<string> types;
     public PokemonPage()
     {
         InitializeComponent();
         pokemonCollectionHandler = new PokemonCollectionHandler();
         currentPokemon = new();
+        types = new List<string> {"None", "Normal", "Fire", "Water", "Electric", "Grass", "Ice", "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy"};
 
-        CurrentPokemonView.BindingContext = currentPokemon;
-        CurrentPokemonName.SetBinding(Label.TextProperty, new Binding("Name"));
+        CurrentPokemonType1.ItemsSource = (System.Collections.IList) types;
+        CurrentPokemonType2.ItemsSource = (System.Collections.IList) types;
 
+        CurrentPokemonType1.SelectedIndex = 0;
+        CurrentPokemonType2.SelectedIndex = 0;
     }
 
     private async void OnImportPokemonClicked(object sender, EventArgs e)
@@ -79,5 +83,42 @@ public partial class PokemonPage : ContentPage
     private void OnPokemonSelected(object sender, SelectedItemChangedEventArgs e)
     {
         currentPokemon = e.SelectedItem as PokemonEntry;
+
+        if (currentPokemon != null)
+        {
+            UpdateCurrentPokemon();
+        }
+    }
+
+    private void UpdateCurrentPokemon()
+    {
+        try
+        {
+            CurrentPokemonName.Text = currentPokemon.Name;
+            CurrentPokemonNumber.Text = currentPokemon.Number.ToString();
+            CurrentPokemonDexID.Text = currentPokemon.DexID;
+
+            CurrentPokemonType1.SelectedIndex = currentPokemon.Type1;
+            CurrentPokemonType2.SelectedIndex = currentPokemon.Type2;
+
+            CurrentPokemonMinStrength.SetNumber(currentPokemon.MinStrength);
+            CurrentPokemonMaxStrength.SetNumber(currentPokemon.MaxStrength);
+
+            CurrentPokemonMinDex.SetNumber(currentPokemon.MinDexterity);
+            CurrentPokemonMaxDex.SetNumber(currentPokemon.MaxDexterity);
+
+            CurrentPokemonMinVit.SetNumber(currentPokemon.MinVitality);
+            CurrentPokemonMaxVit.SetNumber(currentPokemon.MaxVitality);
+
+            CurrentPokemonMinSpec.SetNumber(currentPokemon.MinSpecial);
+            CurrentPokemonMaxSpec.SetNumber(currentPokemon.MaxSpecial);
+
+            CurrentPokemonMinIns.SetNumber(currentPokemon.MinInsight);
+            CurrentPokemonMaxIns.SetNumber(currentPokemon.MaxInsight);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+        }
     }
 }
